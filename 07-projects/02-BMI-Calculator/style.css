@@ -1,9 +1,24 @@
 .container {
-  width: 575px;
-  height: 825px;
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: hotpink;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 25rem;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* justify-content: center; */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    /* smooth effect */
+}
 
-  background-color:hotpink;
-  padding-left: 30px;
+.container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+    /* little lift effect */
 }
 
 form {
@@ -15,40 +30,38 @@ form {
 
 #height,
 #weight {
-  width: 150px;
-  height: 25px;
-  margin-top: 10px;
+    width: 150px;
+    height: 25px;
+    margin-top: 10px;
 }
 
 #weight-guide {
-  /* margin-left: 75px; */
-  margin-top: 25px;
+    /* margin-left: 75px; */
+    margin-top: 25px;
 }
 
 #results {
-  font-size: 35px;
-  /* margin-left: 90px; */
-  margin-top: 20px;
-  color: rgb(241, 241, 241);
+    font-size: 35px;
+    /* margin-left: 90px; */
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
 }
 
 button {
-  width: 150px;
-  height: 35px;
-  /* margin-left: 90px; */
-  margin-top: 25px;
-  background-color: #fff;
-  padding: 1px 30px;
-  border-radius: 8px;
-  color: #212121;
-  text-decoration: none;
-  border: 2px solid #212121;
-
-  font-size: 25px;
+    width: 150px;
+    height: 35px;
+    /* margin-left: 90px; */
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+    font-size: 25px;
 }
 
 h1 {
-  padding-left: 15px;
-  padding-top: 25px;
-  
+    padding-left: 15px;
+    padding-top: 25px;
 }
